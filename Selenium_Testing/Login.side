@@ -1,0 +1,195 @@
+{
+  "id": "ccb3a189-a12f-4f64-af5b-4189ef6a8dc3",
+  "version": "2.0",
+  "name": "Login",
+  "url": "https://www.cricbuzz.com",
+  "tests": [{
+    "id": "65dcb8fe-6168-40de-ab9d-6c8fc127808b",
+    "name": "login",
+    "commands": [{
+      "id": "245b5a9b-ad0e-4ad4-a425-61e5a6cf988b",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "de04550f-786a-459d-af6c-b83aff11671c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d4ab1099-3dd2-467a-bdd2-50ce52a4d68e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Live Scores",
+      "targets": [
+        ["linkText=Live Scores", "linkText"],
+        ["css=.cb-hm-mnu-itm:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Live Scores')]", "xpath:link"],
+        ["xpath=//nav[@id='cb-main-menu']/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cricket-match/live-scores')]", "xpath:href"],
+        ["xpath=//nav/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Live Scores')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "39b26f5d-47bc-4f9e-9c16-33524f1827a4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=IND vs SL - Stumps",
+      "targets": [
+        ["linkText=IND vs SL - Stumps", "linkText"],
+        ["css=.cb-mat-mnu-itm:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'IND vs SL - Stumps')]", "xpath:link"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/nav/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/live-cricket-scores/38622/ind-vs-sl-1st-test-sri-lanka-tour-of-india-2022')]", "xpath:href"],
+        ["xpath=//div[2]/div/nav/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'IND vs SL - Stumps')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "688dbc7e-3f08-43a4-a776-d7aba1df4609",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(2) > .text-hvr-underline",
+      "targets": [
+        ["css=a:nth-child(2) > .text-hvr-underline", "css:finder"],
+        ["xpath=//div[@id='matchCenter']/div[2]/div[2]/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Sri Lanka tour of India, 2022')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "831dfb8e-5339-4145-b270-93c22abefe4c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Schedule & Results",
+      "targets": [
+        ["linkText=Schedule & Results", "linkText"],
+        ["css=.cb-nav-tab:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Schedule & Results')]", "xpath:link"],
+        ["xpath=//div[@id='page-wrapper']/div[3]/nav/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cricket-series/3692/sri-lanka-tour-of-india-2022/matches')]", "xpath:href"],
+        ["xpath=//div[3]/nav/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Schedule & Results')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "24551316-6cb9-42c0-b023-f7ed247602b4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Schedule & Results",
+      "targets": [
+        ["linkText=Schedule & Results", "linkText"],
+        ["css=.cb-nav-tab:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Schedule & Results')]", "xpath:link"],
+        ["xpath=//div[@id='page-wrapper']/div[3]/nav/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cricket-series/3692/sri-lanka-tour-of-india-2022/matches')]", "xpath:href"],
+        ["xpath=//div[3]/nav/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Schedule & Results')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "16ecaef8-1a36-461e-87a2-44648581d1d8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cb-nav-bar",
+      "targets": [
+        ["css=.cb-nav-bar", "css:finder"],
+        ["xpath=//div[@id='page-wrapper']/div[3]/nav", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]/nav", "xpath:position"],
+        ["xpath=//nav[contains(.,'Home Schedule & Results News Videos Squads Photos Stats Venues')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "65ef48f6-5fda-4dc0-a7b2-f9a7afd32d2d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=IND vs SL - Stumps",
+      "targets": [
+        ["linkText=IND vs SL - Stumps", "linkText"],
+        ["css=.cb-mat-mnu-itm:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'IND vs SL - Stumps')]", "xpath:link"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/nav/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/live-cricket-scores/38622/ind-vs-sl-1st-test-sri-lanka-tour-of-india-2022')]", "xpath:href"],
+        ["xpath=//div[2]/div/nav/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'IND vs SL - Stumps')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc7720a3-9784-4e97-8d12-66dc3205e0ec",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Scorecard",
+      "targets": [
+        ["linkText=Scorecard", "linkText"],
+        ["css=.cb-nav-tab:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Scorecard')]", "xpath:link"],
+        ["xpath=//div[@id='matchCenter']/div[2]/nav/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/live-cricket-scorecard/38622/ind-vs-sl-1st-test-sri-lanka-tour-of-india-2022')]", "xpath:href"],
+        ["xpath=//div[4]/div[2]/nav/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Scorecard')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e42e424d-0a78-40ab-952c-61c0efe0866f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=a:nth-child(2) > .text-hvr-underline",
+      "targets": [
+        ["css=a:nth-child(2) > .text-hvr-underline", "css:finder"],
+        ["xpath=//div[@id='matchCenter']/div[2]/div[2]/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Sri Lanka tour of India, 2022')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "99a68d9d-3786-4bbd-b955-7c156120c6ca",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=a:nth-child(2) > .text-hvr-underline",
+      "targets": [
+        ["css=a:nth-child(2) > .text-hvr-underline", "css:finder"],
+        ["xpath=//div[@id='matchCenter']/div[2]/div[2]/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Sri Lanka tour of India, 2022')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6ce8f6e-967b-44de-bca7-36087127144f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Scorecard",
+      "targets": [
+        ["linkText=Scorecard", "linkText"],
+        ["css=.cb-nav-tab:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Scorecard')]", "xpath:link"],
+        ["xpath=//div[@id='matchCenter']/div[2]/nav/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/live-cricket-scorecard/38622/ind-vs-sl-1st-test-sri-lanka-tour-of-india-2022')]", "xpath:href"],
+        ["xpath=//div[4]/div[2]/nav/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Scorecard')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "958171c8-27a6-4853-9f02-2f79071a2703",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,293.6000061035156)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "de9cface-70f5-4e79-81f1-a52288de95d1",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["65dcb8fe-6168-40de-ab9d-6c8fc127808b"]
+  }],
+  "urls": ["https://www.cricbuzz.com/"],
+  "plugins": []
+}
